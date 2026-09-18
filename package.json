@@ -1,16 +1,17 @@
 {
   "name": "jogo-dados-ra",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "main": "index.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start": "expo start --go",
+    "android": "expo start --android --go",
+    "ios": "expo start --ios --go",
+    "web": "expo start --web",
+    "tunnel": "expo start --go --tunnel"
   },
   "dependencies": {
     "babel-preset-expo": "~57.0.12",
-    "expo": "~57.0.0",
+    "expo": "~57.0.24",
     "expo-splash-screen": "~57.0.0",
     "expo-status-bar": "~57.0.1",
     "react": "19.2.3",

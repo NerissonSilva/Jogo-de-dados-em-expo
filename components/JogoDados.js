@@ -87,7 +87,7 @@ export default function JogoDados() {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scroll}>
-        <Text style={styles.titulo}>JOGO DE DADOS</Text>
+        <Text style={styles.titulo}>JOGO DE DADOS EM EXPO</Text>
 
         <View style={styles.info}>
           <Text style={styles.txtInfo}>Rodada: {rodada}/5</Text>
